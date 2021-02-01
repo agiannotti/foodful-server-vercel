@@ -20,6 +20,10 @@ app.use(morgan(morganOption));
 app.use('/api/comments', CommentsRouter);
 app.use('/api/resources', ResourceRouter);
 
+app.get('/', (req, res) => {
+  res.send('Hello, Server!');
+});
+
 app.use(errorHandler);
 
 module.exports = app;
