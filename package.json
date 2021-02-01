@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "files": [
+    "*"
+  ],
   "scripts": {
     "test": "mocha --require test/setup.js",
     "start": "node src/server.js",
@@ -22,14 +25,14 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.3.1",
-    "knex": "^0.21.16",
+    "knex": "^0.21.2",
     "logger": "0.0.1",
     "morgan": "^1.10.0",
-    "pg": "^8.5.1",
+    "pg": "^8.3.0",
+    "postgrator-cli": "^3.2.0",
     "uuid": "^8.3.2",
     "valid-url": "^1.0.9",
     "winston": "^3.3.3",
-    "postgrator-cli": "^3.2.0",
     "xss": "^1.0.8"
   },
   "devDependencies": {
