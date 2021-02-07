@@ -4,4 +4,7 @@ module.exports = {
   DATABASE_URL:
     process.env.DATABASE_URL || 'postgresql://agiannotti@localhost/foodful_DB',
   API_TOKEN: process.env.API_TOKEN || 'placeholder-token',
+  TEST_DATABASE_URL:
+    process.env.DATABASE_URL ||
+    'postgresql://postgres@localhost/foodful_test_DB',
 };
