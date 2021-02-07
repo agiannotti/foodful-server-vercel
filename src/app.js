@@ -17,7 +17,6 @@ app.use(helmet());
 app.use(express.json());
 app.use(morgan(morganOption));
 
-app.use('/api/comments', CommentsRouter);
 app.use('/api/resources', ResourceRouter);
 
 app.get('/', (req, res) => {
