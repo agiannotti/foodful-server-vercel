@@ -8,7 +8,7 @@ const morganOption = NODE_ENV === 'production' ? 'tiny' : 'common';
 const errorHandler = require('./error-handler');
 // const logger = require('/logger');
 const ResourceRouter = require('./resources/resource-router');
-const CommentsRouter = require('./comments/comments-router');
+// const CommentsRouter = require('./comments/comments-router');
 
 const app = express();
 
